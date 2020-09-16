@@ -1,0 +1,112 @@
+
+
+.background-alt {
+    background-color: rgb(238, 241, 241);
+}
+#about{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+#projects{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center;}
+#education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+#skills{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+#contact{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+
+
+
+#education h2{color:#374054;margin-bottom:50px}
+.education-block{max-width:700px;margin:0 auto 60px auto;padding:20px;border:1px solid #dcd9d9;text-align:left}
+.education-block h3{font-weight:500;float:left;margin:0;color:#374054}
+.education-block span{color:#74808a;float:right}
+.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}
+.education-block p,.education-block ul{margin:0;color:#74808a;font-size:0.9em}
+.education-block ul{padding:0 0 0 15px}
+.heading{position:relative;display:inline-block;font-size:2em;font-weight:300;margin:0 0 30px 0}
+.heading:after{position:absolute;content:'';top:100%;height:1px;width:50px;left:0;right:0;margin:0 auto;background:#3498db}
+
+
+#projects h2{color:#374054;margin-bottom:50px}
+.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
+.project-image{float:left;}
+.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px;font-size: 18px;}
+.project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
+.project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
+.no-image .project-info{position:relative;margin:0;padding:30px 15px;transform:none}
+.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}
+
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    *display: inline;
+    zoom: 1;
+    padding-inline-start: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.container p{
+    padding:30px;
+}
+
+.clr{
+    clear:both;
+    font-size:0;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.progress-bar{
+    background-color: rgb(192, 231, 247);
+}
+
+.name{
+    padding: 95px 0px 0px 30px;
+}
+
+
+
+.page-footer{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
