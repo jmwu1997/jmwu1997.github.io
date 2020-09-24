@@ -7,6 +7,9 @@
     border-bottom:1px solid #dcd9d9;
     text-align:center
 }
+.main-image{
+    padding-left: 250px;
+}
 
 #projects{
     padding:50px 15px 20px 15px;
@@ -193,11 +196,15 @@ ul {
     padding: 95px 0px 0px 30px;
 }
 
-
-
 .page-footer{
     text-align: center;
     padding: 30px 30px 30px 30px;
+}
+
+
+@media screen and (max-width: 900px) { 
+    .main-image{padding-left: 25%;}
+    .project-image{display:none}
 }
 
   
